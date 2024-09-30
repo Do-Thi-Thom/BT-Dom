@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./bt_Dom.js"></script>
+</head>
+<body>
+<!-- <h1>BT_DOM</h1> -->
+<!--                                Bài 1               -->
+  <!-- <div id="itemContainer"></div>
+  <script>
+      const items = [
+          "list item number 1",
+          "list item number 2",
+          "list item number 3"
+      ];
+      const itemContainer = document.getElementById('itemContainer');
+      items.forEach(item => {
+          const p = document.createElement('p');
+          p.textContent = item;
+          itemContainer.appendChild(p);
+      });
+  </script> -->
+  <!--                              Bài2                         -->
+<!-- <script>
+    function alertHello (){
+        alert("Xin chào");
+    }
+</script>
+<style>
+    body {
+        display:flex;
+        justify-Content: center;
+        align-items: center;
+        height: 100vh;
+        backgroud-color: blue;
+    }
+    button {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+</style>
+<body>
+    <button onclick="alertHello()">Bấm</button>
+</body>
+</script> -->
+
+<!--                                  Bài 3               -->       
+<!-- <title>This text is optional</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-color: #f0f0f0;
+    }
+    h3 {
+        color: #333;
+        margin: 20px 0;
+    }
+    button {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border: none;
+        background-color: #4CAF50;
+        color: white;
+        border-radius: 5px;
+    }
+    button:hover {
+        background-color: #45a049;
+    }
+</style>
+</head>
+<body>
+
+<h3 id="text">This text is optional</h3>
+<button onclick="changeText()">Nhấn vào đây</button>
+
+<script>
+function changeText() {
+    document.getElementById("text").innerText = "text after change";
+}
+</script>                               -->
+
+<!--                  Bài 4                               -->
+<title>backgroud-color changetext</title>
+<style>
+    #message {
+        font-size: 24px;
+        margin: 20px;
+    }
+</style>
+</head>
+<body>
+<button id="changeColorBtn">change backroud-color</button>
+<div id="message">Backgroud-color changertext</div>
+
+<script>
+    document.getElementById('changeColorBtn').onclick = function() {
+        document.getElementById('message').style.backgroundColor = 'yellow';
+    };
+</script>
+</body>
+</html>
